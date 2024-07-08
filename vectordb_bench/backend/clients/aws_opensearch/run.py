@@ -2,7 +2,7 @@ import time, random
 from opensearchpy import OpenSearch
 from opensearch_dsl import Search, Document, Text, Keyword
 
-_HOST = 'vpc-test-opensearch-6xqiiv6gfhfhpnfjw5zzf72wya.us-west-2.es.amazonaws.com'
+_HOST = 'vpc-opensearch-2c8g-hayq7nwygoeem4rxrcwux7re2y.us-west-2.es.amazonaws.com'
 _PORT = 443
 _AUTH = ('admin', '!QAZ2wsx') # For testing only. Don't store credentials in code.
 

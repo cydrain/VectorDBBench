@@ -6,7 +6,7 @@ from ..api import DBConfig, DBCaseConfig, MetricType, IndexType
 
 class AWSOpenSearchConfig(DBConfig, BaseModel):
     host: str = (
-        "vpc-test-opensearch-6xqiiv6gfhfhpnfjw5zzf72wya.us-west-2.es.amazonaws.com"
+        "vpc-opensearch-2c8g-hayq7nwygoeem4rxrcwux7re2y.us-west-2.es.amazonaws.com"
     )
     port: int = 443
     user: str = "admin"
